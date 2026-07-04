@@ -1,0 +1,69 @@
+services:
+  aip-broker:
+    build: ./aip-broker
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/8080 && exit 0 || exit 1"]
+      interval: 5s
+      timeout: 3s
+      start_period: 25s
+      retries: 12
+
+  aip-producer:
+    build: ./aip-producer
+    ports:
+      - "8081:8081"
+    environment:
+      BROKER_URL: http://aip-broker:8080
+    depends_on:
+      aip-broker:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/8081 && exit 0 || exit 1"]
+      interval: 5s
+      timeout: 3s
+      start_period: 25s
+      retries: 12
+
+  aip-inventory-consumer:
+    build: ./aip-inventory-consumer
+    ports:
+      - "8082:8082"
+    environment:
+      BROKER_URL: http://aip-broker:8080
+    depends_on:
+      aip-broker:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/8082 && exit 0 || exit 1"]
+      interval: 5s
+      timeout: 3s
+      start_period: 25s
+      retries: 12
+
+  aip-notification-consumer:
+    build: ./aip-notification-consumer
+    ports:
+      - "8083:8083"
+    environment:
+      BROKER_URL: http://aip-broker:8080
+    depends_on:
+      aip-broker:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/8083 && exit 0 || exit 1"]
+      interval: 5s
+      timeout: 3s
+      start_period: 25s
+      retries: 12
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - aip-broker
+      - aip-producer
+      - aip-inventory-consumer
+      - aip-notification-consumer

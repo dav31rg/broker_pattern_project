@@ -1,0 +1,15 @@
+com\inventory\client\dto\BrokerRegisterTopicRequest.class
+com\inventory\service\InventoryProcessingService.class
+com\inventory\client\dto\BrokerDelivery.class
+com\inventory\config\BrokerClientConfig.class
+com\inventory\client\BrokerClient.class
+com\inventory\config\ConsumerProperties.class
+com\inventory\dto\OrderCreatedEvent.class
+com\inventory\client\dto\BrokerSubscriptionResponse.class
+com\inventory\client\dto\BrokerSubscribeRequest.class
+com\inventory\client\BrokerClient$1.class
+com\inventory\config\CorsConfig.class
+com\inventory\AipInventoryConsumerApplication.class
+com\inventory\dto\ConsumerStatusResponse.class
+com\inventory\controller\StatusController.class
+com\inventory\client\dto\BrokerAckRequest.class

@@ -1,0 +1,14 @@
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\AipInventoryConsumerApplication.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\client\BrokerClient.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\client\dto\BrokerAckRequest.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\client\dto\BrokerDelivery.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\client\dto\BrokerRegisterTopicRequest.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\client\dto\BrokerSubscribeRequest.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\client\dto\BrokerSubscriptionResponse.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\config\BrokerClientConfig.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\config\ConsumerProperties.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\config\CorsConfig.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\controller\StatusController.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\dto\ConsumerStatusResponse.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\dto\OrderCreatedEvent.java
+C:\Users\humberto\Desktop\practica1\aip-inventory-consumer\src\main\java\com\inventory\service\InventoryProcessingService.java

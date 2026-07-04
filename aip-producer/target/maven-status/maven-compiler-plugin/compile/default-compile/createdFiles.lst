@@ -1,0 +1,12 @@
+com\producer\client\dto\BrokerPublishResponse.class
+com\producer\client\dto\BrokerPublishRequest.class
+com\producer\controller\OrderController.class
+com\producer\client\dto\BrokerRegisterTopicRequest.class
+com\producer\config\BrokerClientConfig.class
+com\producer\dto\OrderRequest.class
+com\producer\dto\OrderResponse.class
+com\producer\config\CorsConfig.class
+com\producer\service\OrderService.class
+com\producer\AipProducerApplication.class
+com\producer\dto\OrderCreatedEvent.class
+com\producer\client\BrokerClient.class

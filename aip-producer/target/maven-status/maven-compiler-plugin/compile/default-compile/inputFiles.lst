@@ -1,0 +1,12 @@
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\AipProducerApplication.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\client\BrokerClient.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\client\dto\BrokerPublishRequest.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\client\dto\BrokerPublishResponse.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\client\dto\BrokerRegisterTopicRequest.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\config\BrokerClientConfig.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\config\CorsConfig.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\controller\OrderController.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\dto\OrderCreatedEvent.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\dto\OrderRequest.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\dto\OrderResponse.java
+C:\Users\humberto\Desktop\practica1\aip-producer\src\main\java\com\producer\service\OrderService.java
